@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+    <RelativeLayout
+        android:id="@+id/day2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/info2_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7日星期五"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF" />
+    <ImageView
+        android:id="@+id/biz_plugin_weather_qing"
+        android:layout_width="100.0dp"
+        android:layout_height="100.0dp"
+        android:src="@drawable/biz_plugin_weather_qing"
+        android:layout_below="@+id/info2_date"/>
+    <TextView
+        android:id="@+id/info2_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="低温22℃  ~  高温29℃"
+        android:textSize="10sp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/biz_plugin_weather_qing" />
+    <TextView
+        android:id="@+id/info2_weather_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="晴"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/info2_temp"/>
+    <TextView
+        android:id="@+id/info2_weather_windLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="东北风3~4级"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/info2_weather_state"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/day3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/day2">
+        <TextView
+            android:id="@+id/info2_date3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8日星期六"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF" />
+        <ImageView
+            android:id="@+id/biz_plugin_weather_qing3"
+            android:layout_width="100.0dp"
+            android:layout_height="100.0dp"
+            android:src="@drawable/biz_plugin_weather_qing"
+            android:layout_below="@+id/info2_date3"/>
+        <TextView
+            android:id="@+id/info2_temp3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="低温17℃  ~  高温24℃"
+            android:textSize="10sp"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/biz_plugin_weather_qing3" />
+        <TextView
+            android:id="@+id/info2_weather_state3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="多云"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/info2_temp3"/>
+        <TextView
+            android:id="@+id/info2_weather_windLevel3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="东北风3~4级"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/info2_weather_state3"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/day4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/day3"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:id="@+id/info2_date4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9日星期日"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF" />
+        <ImageView
+            android:id="@+id/biz_plugin_weather_qing4"
+            android:layout_width="100.0dp"
+            android:layout_height="100.0dp"
+            android:src="@drawable/biz_plugin_weather_qing"
+            android:layout_below="@+id/info2_date4"/>
+        <TextView
+            android:id="@+id/info2_temp4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="低温17℃  ~  高温28℃"
+            android:textSize="10sp"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/biz_plugin_weather_qing4" />
+        <TextView
+            android:id="@+id/info2_weather_state4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="阴"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/info2_temp4"/>
+        <TextView
+            android:id="@+id/info2_weather_windLevel4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="东北风3~4级"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/info2_weather_state4"/>
+    </RelativeLayout>
+</RelativeLayout>
